@@ -7,7 +7,7 @@ resource "azurerm_storage_account" "storage_account" {
 
   tags = {
     environment = var.environment
-    tag2 = "value2"
+    resource_group_name = var.rg_name
     tag3 = "value3"
     tag4 = "value4"
   }
